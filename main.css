@@ -1694,11 +1694,11 @@ template {
   perspective-origin: center;
   overflow: hidden;
   width: 100vw;
-  height: 67vw; }
+  height: 65vw; }
   @media (max-width: 575.98px) {
     .component-big-header {
       min-height: 50vh;
-      height: 120vw; } }
+      height: 113vw; } }
   @media (min-width: 1400px) {
     .component-big-header {
       min-height: 800px; } }
@@ -1740,6 +1740,8 @@ template {
   padding-bottom: 12px;
   position: relative;
   top: 0;
+  padding-top: 16px;
+  margin-top: 16px;
   margin-bottom: 5vh; }
   .component-body-content h2 {
     color: #E91228;
